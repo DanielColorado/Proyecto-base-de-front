@@ -1,0 +1,76 @@
+.o-card{
+	position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, 
+                -webkit-box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+	&__content{
+		position: relative;
+		padding: 24px;
+    	border-radius: 0 0 2px 2px;
+	}
+	&__description{
+		position: relative;
+		text-align: justify;
+	}
+	&__title{
+		position: relative;
+		display: block;
+    	line-height: 32px;
+    	margin-bottom: 8px;
+    	font-size: 24px;
+    	font-weight: 300;
+	}
+	&__action{
+		position: relative;
+		background-color: inherit;
+	    border-top: 1px solid rgba(160,160,160,0.2);
+	    position: relative;
+	    padding: 16px 24px;
+	    &:last-child{
+	    	border-radius: 0 0 2px 2px;
+	    }
+	}
+	&__link{
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-right: 24px;
+	}
+	&__image{
+		position: relative;
+		&-img{
+			position: relative;
+			display: block;
+		    border-radius: 2px 2px 0 0;
+		    position: relative;
+		    left: 0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+		    width: 100%;
+		    border-style: none;
+		}
+		&-title{
+			position: relative;
+			color: #fff;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    max-width: 100%;
+		    padding: 24px;
+		    font-size: 24px;
+   			font-weight: 300;
+   			background: linear-gradient(45deg, #313131, transparent);
+		}
+	}
+
+
+}

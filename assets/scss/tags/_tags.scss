@@ -1,0 +1,88 @@
+h1{
+	font-size: 32px;
+	font-size: 2rem;
+}
+
+h2{
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+h3{
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+h4{
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+h5,a,abbr,b,code,dfn,em,i,li,mark,p,pre,strong{
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+h6,small{
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+li{
+	margin-left: 16px;
+	margin-left: 1rem;
+	list-style-type: inherit;
+	list-style-position: inside;
+}
+
+abbr,em,dfn,i{
+	font-style: italic;
+}
+
+b,strong{
+	font-weight: bold;
+}
+
+code,pre{
+	font-family: monospace;
+}
+
+mark{background-color: yellow;}
+
+hr{
+	margin: 16px auto;
+	margin: 1rem auto;
+	width: 100%;
+	border: thin solid black;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{
+	display: block;
+}
+
+table{border-collapse: collapse;}
+
+audio,canvas,img,iframe,picture,progress,svg,video{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+button,input,optgroup,option,select,textarea{
+	padding: 4px;
+	padding: .25rem;
+	font-family: inherit;
+	font-size: 16px;
+	font-size: 1rem;
+	border: thin solid black;
+}
+
+button, input[type="button"],input[type="submit"],input[type="reset"],input[type="checkbox"],input[type="radio"],label,select{
+	cursor: pointer;
+}
+
+textarea{
+	resize:none;
+}

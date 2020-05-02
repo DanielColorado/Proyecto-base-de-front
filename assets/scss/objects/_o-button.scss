@@ -1,0 +1,15 @@
+.o-button{
+	position: relative;
+	@include convertPxToRem("font-size",0.875);
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    @include convertPxToRem("letter-spacing",0.03125);
+    @include convertPxToRem("height",2.25);
+    @include convertPxToRem("line-height",2.25);
+    padding: 0 16px;
+    text-transform: uppercase;
+    border: none;
+    @include convertPxToRem("border-radius",0.125);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}

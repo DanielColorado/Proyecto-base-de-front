@@ -1,0 +1,36 @@
+.o-col{
+	@for $i from $num-col through 1 {
+		$width: ($i * 100%) / $num-col;
+		&#{$i}{
+			position: relative;
+			width: $width;
+		}
+	}
+    @include sm{
+        @for $i from $num-col through 1 {
+			$width: ($i * 100%) / $num-col;
+			&#{$i}\@sm{
+				position: relative;
+				width: $width;
+			}
+		}
+    }
+    @include md{
+        @for $i from $num-col through 1 {
+			$width: ($i * 100%) / $num-col;
+			&#{$i}\@md{
+				position: relative;
+				width: $width;
+			}
+		}
+    }
+    @include l{
+       @for $i from $num-col through 1 {
+			$width: ($i * 100%) / $num-col;
+			&#{$i}\@l{
+				position: relative;
+				width: $width;
+			}
+		}
+    }
+}

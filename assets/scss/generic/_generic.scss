@@ -1,0 +1,32 @@
+html{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: helvetica,sans-serif;
+	font-size: 16px;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	text-size-adjust:100%;
+	background-color: white;
+	color: black;
+}
+
+body{overflow-x:hidden; }
+
+*,*::after,*::before{
+	-ms-box-sizing:inherit;
+	-moz-box-sizing:inherit;
+	-webkit-box-sizing:inherit;
+	box-sizing:inherit;
+	margin: 0;
+	padding: 0;
+	outline: 0px solid;
+	&:hover,
+    &:active,
+    &:focus, 
+    &:visited{
+        outline: 0px solid;
+    }
+}

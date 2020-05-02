@@ -1,0 +1,28 @@
+.o-breadcrumb{
+	position: relative;
+	@include convertPxToRem("font-size",1.125);
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+
+    &:first-child{
+    	&::before{
+    		content: '';
+    	}
+    }
+
+    &:last-child{
+    	color: #fff;
+    }
+
+    &::before{
+    	content: '>';
+	    color: rgba(255,255,255,0.7);
+	    vertical-align: middle;
+	    display: inline-block;
+	    font-weight: normal;
+	    font-style: normal;
+	    @include convertPxToRem("font-size",1.5625);
+	    margin: 0 10px 0 8px;
+	    -webkit-font-smoothing: antialiased;
+    }
+}
